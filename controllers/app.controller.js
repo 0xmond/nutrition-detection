@@ -1,4 +1,4 @@
-import modelRouter from "./serviceRoute.js";
+import modelRouter from "./detection.controller.js";
 import { uploadFile } from "../utils/upload/multer.js";
 
 export const bootstrap = (app, express) => {
